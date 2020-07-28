@@ -7,13 +7,13 @@ import logging
 import time
 from PIL import Image,ImageDraw,ImageFont 
 import traceback
-from utils import *
-from page import *
+import utils
+import page
 import threading
 
 run_command("sudo resize2fs /dev/mmcblk0p2")
-#Menu_page_protect 
-# Menu_page_protect_flag = 0 
+
+
 
 #background_color
 background_color_config = 255

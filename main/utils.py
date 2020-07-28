@@ -76,8 +76,8 @@ def run_command(cmd=""):
     return status, result
 
 def do(msg="", cmd=""):
-    print(" - %s..." % (msg), end='\r')
-    print(" - %s... " % (msg), end='')
+    #print(" - %s..." % (msg), end='\r')
+    #print(" - %s... " % (msg), end='')
     status, result = eval(cmd)
     # print(status, result)
     if status == 0 or status == None or result == "":
